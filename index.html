@@ -79,7 +79,21 @@
     </section>
 
     <!-- Hotels Listing -->
-    <main class="max-w-7xl mx-auto px-4 py-12" id="hotels">
+    <main class="max-w-7xl mx-auto px-4 py-12" id="hotels<!-- Yangi qo'shilgan Mehmonxona -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Hotel" class="h-48 w-full object-cover">
+                <div class="p-5">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-lg">Sizning Mehmonxona Nomi</h3>
+                        <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded font-semibold">Bo'sh xonalar bor</span>
+                    </div>
+                    <p class="text-gray-500 text-sm mb-4">📍 Shahar, Ko'cha nomi</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-600 font-bold text-lg">200,000 so'm <span class="text-xs text-gray-400 font-normal">/ kecha</span></span>
+                        <button onclick="openBookingModal('Sizning Mehmonxona Nomi', '200,000 so\'m')" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">Band qilish</button>
+                    </div>
+                </div>
+            </div>">
         <div class="flex justify-between items-center mb-8">
             <h2 class="text-2xl font-bold text-gray-900">Mavjud Mehmonxona va Hostellar</h2>
             <span id="result-count" class="text-sm text-gray-500">3 ta joy topildi</span>
@@ -89,3 +103,8 @@
             <!-- Hotel 1 -->
             <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition">
                 <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80" alt="Hotel" class="h-48 w-full object-cover">
+<h3 class="font-bold text-lg">Mehmonxona nomi</h3>
+...
+<span class="text-blue-600 font-bold text-lg">narxi masalan 350,000 so'm <span class="text-xs text-gray-400 font-normal">/ kecha</span></span>
+...
+<button onclick="openBookingModal('Mehmonxona nomi', 'narxi masalan 350,000 so\'m')" ...>Band qilish</button>
